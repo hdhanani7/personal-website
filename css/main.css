@@ -1,0 +1,247 @@
+/************************************
+GENERAL
+*************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Create a wrapper around the entire site contents, set the width to 940px,
+set the margin to 0 and auto to center the wrapper, then add left and right
+padding of 5% for space.*/
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Fills the width of the parent container.*/
+img {
+  max-width: 100%;
+}
+
+/*Bottom is 1em.  This will zero out the margins on the h3 elements.*/
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/************************************
+HEADING
+*************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%; /*Because the header is floated left, we need to specifically set the width for this element.*/
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/************************************
+NAVIGATION
+*************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px; /*This makes the tap targets a lot bigger for  mobile.*/
+}
+
+
+/************************************
+FOOTER
+*************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px; /*Width is half of the actual size.*/
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/************************************
+PAGE PORTFOLIO
+*************************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Allows you to position the list items side by side, instead of stacked.*/
+#gallery li {
+  float: left; 
+  
+  /*
+  Regardless of the size of the browser window, each image will only take up 45% of the total width of it's parent element. 
+  The images are scaling, and those images will take up 45% of the width.  Since every parent elemnt above the list items are not set, they default
+  to 100%.  That means our images will be 45% of the total width of the page.  45 goes into 100 twice with 10% left over.  This 10% can be used
+  to create space between our images.
+  */
+  width: 45%; 
+  margin: 2.5%; /*Each image has 2.5% margin on each side.  Each image has a 5% margin in total.  With a two-column layout, this fills the 10%.*/
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/************************************
+PAGE: ABOUT
+*************************************/
+
+.profile-photo {
+  display: block; /*Allows us to use auto margins to center the image. More flexibility for centering later on.*/
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%; /*Allows you to add rounded corners to an element. 100% creates a circle around the picture.*/
+}
+
+
+
+/************************************
+PAGE: CONTACT
+*************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block; /*Each one of our images will take up space.  That will give us a bit more space to work with to be displayed.*/
+  min-height: 20px; /*Min height our icons will be visible.*/
+  background-repeat: no-repeat; /*Setting background image to not repeat, as it does by default.*/
+  background-size: 20px 20px; /*Re-sizing our background images.*/
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+/************************************
+COLOURS
+*************************************/
+
+/* site body */
+body {
+    background-color: #fff;
+    color: #999;
+  }
+
+/* green header */
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background on mobile */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav links and nav visited links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected and hover state nav links */
+nav a.selected, a:hover {
+  color: #32673f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
