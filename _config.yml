@@ -17,7 +17,7 @@ title: Hussain Dhanani
 email: hdhanani7@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Musings on product, design, leadership, and teams.
-baseurl: "/personal-website" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hussaindhanani.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: junoHD
 github_username:  hdhanani7
