@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "What I Learned About Diversity & Inclusion This Week"
-date:   2017-04-016 22:26:30 -0700
+date:   2017-04-16 21:00:00 -0700
 categories: blog
 ---
-
 Diversity and inclusion, as a topic, has been very popular in the media lately.  From [Uber’s ongoing struggles with diversity and culture](https://www.nytimes.com/2017/03/28/technology/tech-roundup-improving-ubers-diversity-and-culture.html), and [Google being accused of underpaying women employees](http://www.npr.org/sections/thetwo-way/2017/04/08/523129221/google-accused-of-underpaying-female-employees), you can’t go a week without reading something in the news around these issues.
 
 So why is it important to me?
