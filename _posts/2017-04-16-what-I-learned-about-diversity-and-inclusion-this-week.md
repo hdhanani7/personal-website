@@ -20,7 +20,7 @@ An initiative like Blendoor is seriously kick ass.  I am pretty amazed at which 
 
 For more info take a look at [Blendoor.com](http://www.blendoor.com/)
 
-## 2 Style & Class Vancouver
+## Style & Class Vancouver
 A friend and co-worker of mine invited me to attend Style & Class on Wednesday April 12th.  The topic of the Meetup was [Equality & Ideal Futures in Technology](https://www.meetup.com/styleandclass/events/238961461/).  I had the honor of hearing Ashley Victoria’s presentation on sexism in the workplace.  From her real-life examples, it’s bewildering to hear how some men view women at work.  How men can behave towards women at work, or at a conference, or at a holiday party.  I was really grateful to hear these stories and to reaffirm, once again, that we can all be an ally to our co-workers and friends - no matter what their makeup or background is.
 
 ## Next Steps
